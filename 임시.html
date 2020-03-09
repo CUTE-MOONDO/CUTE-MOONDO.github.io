@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>문도 홈페이지</title>
+	<style>
+            #topMenu {            
+                    height: 30px; 
+                    width: 850px;
+            }
+            #topMenu ul li {                       
+                    list-style: none;          /* 점 없애기 */
+                    color: white;               
+                    background-color: #F9C5E0;  
+                    float: left;                /* <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴*/
+                    line-height: 30px;          
+                    vertical-align: middle;     
+                    text-align: center;         
+            }
+            #topMenu .menuLink {                               
+                    text-decoration:none;                      /* 링크(<a> 태그)가 가지는 기본 꾸밈 효과(밑줄 등)을 없앰*/
+                    color: white;                              
+                    display: block;                            /* 링크를 글씨가 있는 부분 뿐만아니라 전체 영역을 클릭해도 링크가 걸리게 설정*/
+                    width: 150px;                              
+                    font-size: 12px;                           
+                    font-weight: bold;                         
+                    font-family: "Trebuchet MS", Dotum, Arial; 
+            }
+            #topMenu .menuLink:hover {            /*topMenu 아이디를 가진 태그 안에 menuLink클래스를 가진 태그에 마우스가 over되면 스타일 설정*/
+                    color: red;                   
+                    background-color: #FF77A0;    // 배경색을 조금 더 밝은 회색으로 설정
+            }
+    </style>
+
+</head>
+<body>
+	<header>
+		<nav id = "topMenu">
+			<ul>
+				<li><a class="menuLink" href="#">menu1</a></li>
+				<li><a class="menuLink" href="#">menu2</a></li>
+				<li><a class="menuLink" href="#">menu3</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<div class="sidebar">
+			<h2>Sidebar</h2>
+			<ul>
+				<li>menu</li>
+				<li>menu</li>
+				<li>menu</li>
+				<li>menu</li>
+				<li>menu</li>
+			</ul>
+		</div>
+		
+	</div>
+	<footer>
+		<h6>designed by CUTE-MOONDOⓒ</h6>
+	</footer>
+</body>
+</html>
