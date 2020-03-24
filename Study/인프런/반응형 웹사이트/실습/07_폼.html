@@ -17,16 +17,54 @@
       <div class="row">
         <div class="col-xs-12">
           <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">이메일 주소</label>
+            <div class="form-group has-error">
+              <label for="exampleInputEmail1" class="control-label">이메일 주소</label>
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
             </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">암호</label>
+            <div class="form-group has-success">
+              <label for="exampleInputPassword1" class="control-label">암호</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="암호">
             </div>
-            <div class="form-group">
-              <label for="exampleInputFile">파일 업로드</label>
+            <div class="form-group has-success has-feedback">
+              <label class="control-label" for="inputGroupSuccess1">아이콘과 입력창</label>
+              <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+              </div>
+              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            <div class="form-group has-warning">
+              <label for="exampleInputFile" class="control-label">파일 업로드</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">여기에 블록레벨 도움말 예제</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> 입력을 기억합니다
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">제출</button>
+          </form>
+
+          <form class="form-inline">
+            <div class="form-group has-error">
+              <label for="exampleInputEmail1" class="control-label">이메일 주소</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+            </div>
+            <div class="form-group has-success">
+              <label for="exampleInputPassword1" class="control-label">암호</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="암호">
+            </div>
+            <div class="form-group has-success has-feedback">
+              <label class="control-label" for="inputGroupSuccess1">아이콘과 입력창</label>
+              <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+              </div>
+              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            <div class="form-group has-warning">
+              <label for="exampleInputFile" class="control-label">파일 업로드</label>
               <input type="file" id="exampleInputFile">
               <p class="help-block">여기에 블록레벨 도움말 예제</p>
             </div>
