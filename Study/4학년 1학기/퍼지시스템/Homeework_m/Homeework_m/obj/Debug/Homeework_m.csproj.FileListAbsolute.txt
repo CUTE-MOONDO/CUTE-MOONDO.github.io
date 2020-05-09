@@ -1,0 +1,11 @@
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\bin\Debug\Homeework_m.exe
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\bin\Debug\Homeework_m.pdb
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\obj\Debug\Homeework_m.csprojAssemblyReference.cache
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\obj\Debug\Homeework_m.csproj.CoreCompileInputs.cache
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\obj\Debug\Homeework_m.exe
+C:\Users\dudwo\source\repos\Homeework_m\Homeework_m\obj\Debug\Homeework_m.pdb
+C:\Users\shdmf\Downloads\Homeework_m\Homeework_m\bin\Debug\Homeework_m.exe
+C:\Users\shdmf\Downloads\Homeework_m\Homeework_m\bin\Debug\Homeework_m.pdb
+C:\Users\shdmf\Downloads\Homeework_m\Homeework_m\obj\Debug\Homeework_m.csprojAssemblyReference.cache
+C:\Users\shdmf\Downloads\Homeework_m\Homeework_m\obj\Debug\Homeework_m.exe
+C:\Users\shdmf\Downloads\Homeework_m\Homeework_m\obj\Debug\Homeework_m.pdb
